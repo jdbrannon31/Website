@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joseph Brannon | Georgia Tech Portfolio</title>
+  <meta name="description"
+    content="Joseph 'JD' Brannon — Computer Engineering student at Georgia Tech. Portfolio showcasing projects, experience, and career aspirations." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">JB</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#goals" class="nav-link">Goals</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO / WELCOME ===== -->
+  <section id="hero" class="section hero">
+    <div class="hero-content reveal">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Joseph "JD" Brannon</h1>
+      <p class="hero-tagline">Computer Engineering · Georgia Institute of Technology</p>
+      <p class="hero-summary">
+        First-year Computer Engineering student at Georgia Tech with a strong foundation in Java and Python.
+        Currently training in MATLAB/Simulink for autonomous vehicle development with the EcoCAR EV Challenge.
+        Passionate about applying technical skills to real-world engineering challenges.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#about" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ME ===== -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title reveal">About Me</h2>
+      <div class="about-grid reveal">
+        <div class="about-image-wrapper">
+          <div class="about-image-placeholder">
+            <span>Your Photo</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>
+            I'm Joseph Brannon, a first-year Computer Engineering student at the Georgia Institute of Technology,
+            originally from Winder, Georgia. My journey into tech started with a natural curiosity for how things work —
+            and that curiosity quickly grew into a passion for building things that solve real problems.
+          </p>
+          <p>
+            Before arriving at Georgia Tech, I gained hands-on experience as an AI &amp; Simulation Developer Intern
+            at Barrow Arts and Sciences Academy, where I built a high-fidelity 3D simulation in Unreal Engine
+            and engineered a customized GPT model for the Work-Based Learning department. That experience taught me
+            the power of combining creativity with technical skill to create tools that actually help people.
+          </p>
+          <p>
+            At Tech, I'm diving into the EcoCAR EV Challenge as part of the Connected and Automated Vehicles subteam,
+            where I'm developing control algorithms in MATLAB and Simulink and working with LiDAR, radar, and camera
+            data.
+            I'm also strengthening my foundation through coursework in object-oriented programming with Java, and I've
+            started a self-directed study of Linux to sharpen my command-line and systems skills.
+          </p>
+          <p>
+            I thrive in environments where I can learn by doing. Whether it's engineering a scheduling app from scratch
+            at Geo Lab Drilling, collaborating with faculty on AI curriculum integration, or tackling autonomous vehicle
+            challenges — I'm driven by the opportunity to build, iterate, and grow. I'm excited about what lies ahead
+            and eager to connect with others who share a passion for innovation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESUME ===== -->
+  <section id="resume" class="section resume">
+    <div class="container">
+      <h2 class="section-title reveal">Resume</h2>
+      <div class="resume-content reveal">
+
+        <!-- Objective -->
+        <div class="resume-block">
+          <h3 class="resume-block-title">Objective</h3>
+          <p class="resume-detail" style="padding-left: 20px; border-left: 2px solid var(--border-accent);">
+            First-year Computer Engineering student at Georgia Tech with a strong foundation in Java and Python.
+            Currently training in MATLAB/Simulink for autonomous vehicle development with the EcoCAR EV Challenge.
+            Seeking a Summer 2026 internship to apply technical skills to real-world engineering challenges.
+          </p>
+        </div>
+
+        <!-- Education -->
+        <div class="resume-block">
+          <h3 class="resume-block-title">Education</h3>
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h4>Georgia Institute of Technology — Atlanta, GA</h4>
+              <span class="resume-date">Aug 2025 — Present</span>
+            </div>
+            <p class="resume-detail">B.S. in Computer Engineering &nbsp;|&nbsp; GPA: 3.38</p>
+            <p class="resume-detail">Expected Graduation: May 2029</p>
+            <p class="resume-detail">Relevant Coursework: Intro to Object-Oriented Programming — design and
+              implementation of professional-grade applications using Java</p>
+          </div>
+        </div>
+
+        <!-- Experience -->
+        <div class="resume-block">
+          <h3 class="resume-block-title">Experience</h3>
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h4>Operations &amp; Systems Assistant — Geo Lab Drilling</h4>
+              <span class="resume-date">May — Aug 2025</span>
+            </div>
+            <p class="resume-detail" style="color: var(--text-muted); margin-bottom: 8px;">Winder, Georgia</p>
+            <ul class="resume-bullets">
+              <li>Engineered a custom scheduling application from scratch using Microsoft PowerApps, currently utilized
+                by 30+ employees</li>
+              <li>Coordinated daily logistics and loading of 5+ specialized field trucks, ensuring on-time deployment
+              </li>
+              <li>Optimized warehouse organization and inventory of specialized drilling components reducing truck
+                loading time</li>
+            </ul>
+          </div>
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h4>AI &amp; Simulation Developer Intern — Barrow Arts and Sciences Academy</h4>
+              <span class="resume-date">Aug 2024 — May 2025</span>
+            </div>
+            <p class="resume-detail" style="color: var(--text-muted); margin-bottom: 8px;">Winder, Georgia</p>
+            <ul class="resume-bullets">
+              <li>Developed a high-fidelity 3D simulation in Unreal Engine, implementing custom assets to enhance visual
+                tools</li>
+              <li>Engineered a customized GPT model for the Work-Based Learning department to assist students with
+                career readiness</li>
+              <li>Collaborated with faculty to integrate AI tools into the curriculum for 200+ program participants</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="resume-block">
+          <h3 class="resume-block-title">Skills</h3>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h4>Programming</h4>
+              <div class="skill-tags">
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag">Python</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h4>Software</h4>
+              <div class="skill-tags">
+                <span class="skill-tag">VS Code</span>
+                <span class="skill-tag">Microsoft 365</span>
+                <span class="skill-tag">Windows</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h4>Languages</h4>
+              <div class="skill-tags">
+                <span class="skill-tag">English (fluent)</span>
+                <span class="skill-tag">Spanish (beginner)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Download -->
+        <div class="resume-download">
+          <a href="assets/Brannon_Resume_1100.pdf" download class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            Download Resume PDF
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CAREER GOALS ===== -->
+  <section id="goals" class="section goals">
+    <div class="container">
+      <h2 class="section-title reveal">Career Goals</h2>
+      <div class="goals-content reveal">
+        <div class="goals-intro">
+          <p>
+            My long-term aspiration is to work at the intersection of computing hardware, emerging architectures, and
+            cybersecurity — designing the next generation of secure, high-performance systems. Here's my roadmap:
+          </p>
+        </div>
+        <div class="goals-timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Now — Foundation (Freshman Year)</h3>
+              <p>
+                Build a strong technical foundation through Computer Engineering coursework at Georgia Tech.
+                Develop programming proficiency in Java and Python, gain hands-on systems experience through
+                the EcoCAR EV Challenge, and build Linux command-line skills through self-directed study.
+                Begin exploring the fundamentals of computer architecture and digital systems.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Sophomore Year — Building Technical Depth</h3>
+              <p>
+                Gain real-world technical skills before pursuing an internship. Dive deeper into computer
+                architecture and cybersecurity coursework, contribute to hands-on team projects like EcoCAR,
+                and pursue personal projects that build practical experience with hardware design, security
+                tools, and systems-level programming. Focus on developing the skills that will make me
+                a strong contributor from day one in a professional setting.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Summer 2027 — First Industry Internship</h3>
+              <p>
+                Secure a Summer 2027 internship in hardware engineering, cybersecurity, or systems development.
+                Apply the technical depth built over two years of coursework and projects to real-world
+                challenges, gaining exposure to professional workflows and industry-scale systems.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Junior &amp; Senior Year — Specialization</h3>
+              <p>
+                Pursue focused electives in computer architecture, VLSI design, hardware security, and
+                network security. Explore emerging architectures such as RISC-V, neuromorphic computing,
+                and hardware accelerators. Seek additional co-ops or internships with companies working on
+                next-generation processors, secure hardware, or cybersecurity platforms.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Post-Graduation — Industry Entry</h3>
+              <p>
+                Join a technology company as a hardware engineer, security engineer, or systems architect.
+                Contribute to designing secure computing platforms, whether that's developing new processor
+                architectures, building hardware-level security features, or defending critical infrastructure.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Long-Term — Leadership &amp; Impact</h3>
+              <p>
+                Grow into a technical leadership role at the forefront of secure computing and emerging
+                hardware architectures. Potentially pursue a Master's degree to deepen expertise in
+                hardware security or advanced chip design. My ultimate goal is to help build computing
+                systems that are faster, more efficient, and fundamentally more secure.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2 class="section-title reveal">Technical Projects</h2>
+
+      <!-- Project 1: EcoCAR EV Challenge -->
+      <article class="project-card reveal" id="project-ecocar">
+        <div class="project-card-inner">
+          <div class="project-image">
+            <img src="assets/project-discovery.png" alt="EcoCAR EV Challenge visual" />
+          </div>
+          <div class="project-preview">
+            <span class="project-badge">VIP · Discovery Project</span>
+            <h3 class="project-title">EcoCAR EV Challenge — Connected &amp; Automated Vehicles</h3>
+            <p class="project-excerpt">
+              Contributing to the final year refinement of Level 2 autonomous systems for a 2023 Cadillac LYRIQ
+              as part of a four-year national collegiate competition.
+            </p>
+            <button class="btn btn-outline btn-sm project-toggle" data-target="project-ecocar-detail">
+              Read More
+            </button>
+          </div>
+        </div>
+        <div class="project-detail" id="project-ecocar-detail">
+          <div class="project-detail-content">
+            <h3>Project Overview</h3>
+            <p>
+              The EcoCAR EV Challenge is a prestigious four-year national collegiate competition sponsored by
+              the U.S. Department of Energy and General Motors. Georgia Tech's team is tasked with re-engineering
+              a 2023 Cadillac LYRIQ to integrate advanced propulsion systems, connected vehicle technologies,
+              and SAE Level 2 automated driving features. As a member of the Connected and Automated Vehicles
+              (CAVs) subteam within the Vertically Integrated Projects (VIP) program, I contribute to the
+              final year of competition refinement.
+            </p>
+            <p>
+              The challenge brings together students from multiple engineering disciplines — mechanical, electrical,
+              computer, and software — to work on a real vehicle platform with industry-grade tools and processes.
+              This mirrors the collaborative, cross-functional environment of a professional automotive engineering
+              team.
+            </p>
+            <h3>Technical Contributions</h3>
+            <p>
+              My primary focus is on developing longitudinal and lateral control algorithms for automated driving
+              features using MATLAB and Simulink. Longitudinal control governs acceleration and braking behavior,
+              while lateral control manages steering inputs — both critical for safe and smooth autonomous operation.
+              These algorithms must account for real-world variables like road curvature, vehicle speed, and
+              sensor latency.
+            </p>
+            <p>
+              I also assist in processing and interpreting data from the vehicle's sensor suite, which includes
+              LiDAR, radar, and cameras. Object detection accuracy is paramount for autonomous systems, and
+              I contribute to testing and refining the perception pipeline that fuses data from these multiple
+              sensor modalities into a coherent understanding of the vehicle's environment.
+            </p>
+            <p>
+              Beyond individual technical work, I collaborate with multidisciplinary subteams to ensure that
+              the CAVs systems integrate seamlessly with the vehicle's energy-optimal path planning algorithms
+              and overall safety architecture. Communication across subteams — propulsion, controls, cybersecurity,
+              and CAVs — is essential for the competition's success.
+            </p>
+            <h3>Skills &amp; Takeaways</h3>
+            <ul>
+              <li>Gaining hands-on experience with MATLAB/Simulink in a real-world autonomous vehicle context</li>
+              <li>Working with industry-standard sensor technologies: LiDAR, radar, and camera fusion</li>
+              <li>Developing control systems for longitudinal and lateral vehicle automation</li>
+              <li>Collaborating across disciplines in a structure that mirrors professional engineering teams</li>
+              <li>Learning to iterate under competition deadlines with real safety constraints</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2: BASA AI & Simulation -->
+      <article class="project-card reveal" id="project-basa">
+        <div class="project-card-inner">
+          <div class="project-image">
+            <img src="assets/project-fpga.png" alt="BASA AI and Simulation project visual" />
+          </div>
+          <div class="project-preview">
+            <span class="project-badge">Internship</span>
+            <h3 class="project-title">AI &amp; 3D Simulation — Barrow Arts and Sciences Academy</h3>
+            <p class="project-excerpt">
+              Developed a high-fidelity 3D simulation in Unreal Engine and engineered a custom GPT model
+              for career readiness — serving 200+ students.
+            </p>
+            <button class="btn btn-outline btn-sm project-toggle" data-target="project-basa-detail">
+              Read More
+            </button>
+          </div>
+        </div>
+        <div class="project-detail" id="project-basa-detail">
+          <div class="project-detail-content">
+            <h3>Project Overview</h3>
+            <p>
+              During my internship at Barrow Arts and Sciences Academy (BASA) in Winder, Georgia, I worked
+              at the intersection of artificial intelligence and immersive simulation to create tools that
+              enhanced both the student experience and faculty capabilities. The internship spanned a full
+              academic year, giving me the opportunity to take projects from concept through deployment.
+            </p>
+            <p>
+              BASA's Work-Based Learning (WBL) department needed better tools to guide students through
+              career exploration and readiness. At the same time, the school was looking for innovative ways
+              to bring visual and interactive technologies into the classroom. I took on both challenges.
+            </p>
+            <h3>3D Simulation Development</h3>
+            <p>
+              I developed a high-fidelity 3D simulation environment using Unreal Engine, implementing custom
+              assets to create an immersive visual experience. The simulation served as an interactive tool
+              for students, providing a more engaging way to explore concepts that are difficult to convey
+              through traditional classroom methods. Building in Unreal Engine taught me about real-time
+              rendering pipelines, asset optimization, and the importance of user experience in technical tools.
+            </p>
+            <h3>Custom GPT Model</h3>
+            <p>
+              For the WBL department, I engineered a customized GPT model designed to assist students with
+              career readiness — helping them draft resumes, practice interview responses, and explore career
+              pathways relevant to their interests. The model was tailored to the department's specific needs
+              and curriculum, making it a practical tool rather than a generic chatbot.
+            </p>
+            <p>
+              I also collaborated closely with faculty to integrate AI tools into the broader curriculum,
+              ultimately impacting 200+ program participants. This required not just technical skill, but
+              the ability to communicate complex technology to non-technical stakeholders and adapt solutions
+              based on their feedback.
+            </p>
+            <h3>Key Takeaways</h3>
+            <ul>
+              <li>Built a complete 3D simulation from concept to deployment in Unreal Engine</li>
+              <li>Engineered and deployed a custom AI model for a real educational use case</li>
+              <li>Learned to collaborate with non-technical stakeholders and translate their needs into technical
+                solutions</li>
+              <li>Gained experience managing multiple long-running projects simultaneously across a full academic year
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3: Geo Lab Scheduling App -->
+      <article class="project-card reveal" id="project-geolab">
+        <div class="project-card-inner">
+          <div class="project-image">
+            <div
+              style="width:100%;height:100%;min-height:240px;background:var(--bg-card);display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-size:0.9rem;">
+              Scheduling App</div>
+          </div>
+          <div class="project-preview">
+            <span class="project-badge">Professional</span>
+            <h3 class="project-title">Custom Scheduling Application — Geo Lab Drilling</h3>
+            <p class="project-excerpt">
+              Engineered a scheduling application from scratch using Microsoft PowerApps, now utilized
+              by 30+ employees for daily operations.
+            </p>
+            <button class="btn btn-outline btn-sm project-toggle" data-target="project-geolab-detail">
+              Read More
+            </button>
+          </div>
+        </div>
+        <div class="project-detail" id="project-geolab-detail">
+          <div class="project-detail-content">
+            <h3>Project Overview</h3>
+            <p>
+              At Geo Lab Drilling, I identified a gap in the company's operational workflow: scheduling and
+              logistics were managed through fragmented manual processes that led to inefficiencies and
+              miscommunication. As an Operations &amp; Systems Assistant during the summer of 2025, I took
+              the initiative to design and build a custom scheduling application from scratch.
+            </p>
+            <h3>Technical Implementation</h3>
+            <p>
+              The application was built using Microsoft PowerApps, leveraging its low-code platform to
+              rapidly develop a solution tailored to the company's specific needs. The app handles employee
+              scheduling, truck assignment, and daily logistics coordination, replacing previously manual
+              processes with a streamlined digital workflow. It is currently utilized by 30+ employees
+              across the organization.
+            </p>
+            <h3>Impact</h3>
+            <p>
+              Beyond the scheduling app, I coordinated the daily logistics and loading of 5+ specialized
+              field trucks, ensuring on-time deployment to job sites. I also optimized the warehouse
+              organization and inventory management of specialized drilling components, measurably reducing
+              truck loading time and improving overall operational efficiency.
+            </p>
+            <ul>
+              <li>Delivered a production-ready application used daily by 30+ employees</li>
+              <li>Gained experience in requirements gathering, user-centered design, and deployment</li>
+              <li>Improved logistics efficiency through process optimization and digital tooling</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title reveal">Get In Touch</h2>
+      <p class="contact-intro reveal">Interested in connecting? I'd love to hear from you — whether it's about a project, an opportunity, or just to say hello.</p>
+      <div class="contact-cards reveal">
+        <a href="mailto:jdbrannon31@gmail.com" class="contact-card">
+          <div class="contact-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <h3>Email</h3>
+          <p>jdbrannon31@gmail.com</p>
+        </a>
+        <a href="tel:+17064247452" class="contact-card">
+          <div class="contact-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <h3>Phone</h3>
+          <p>(706) 424-7452</p>
+        </a>
+        <a href="https://www.linkedin.com/in/joseph-brannon-ab59183a8" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </div>
+          <h3>LinkedIn</h3>
+          <p>Joseph Brannon</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 Joseph D. Brannon · Georgia Institute of Technology</p>
+        <div class="footer-links">
+          <a href="mailto:jdbrannon31@gmail.com" aria-label="Email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/joseph-brannon-ab59183a8" target="_blank" rel="noopener"
+            aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== PROJECT DETAIL MODAL OVERLAY ===== -->
+  <div id="modal-overlay" class="modal-overlay"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

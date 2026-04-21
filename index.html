@@ -485,8 +485,17 @@
       <!-- Project 4: 8-Bit Computer Build -->
       <article class="project-card reveal" id="project-8bit">
         <div class="project-card-inner">
-          <div class="project-image">
-            <img src="assets/IMG_9209.jpg" alt="8-Bit computer clock module on a breadboard" />
+          <div class="project-image project-carousel" data-carousel>
+            <div class="carousel-track">
+              <img src="assets/IMG_9209.jpg" alt="8-Bit computer clock module on a breadboard" class="carousel-slide active" />
+              <img src="assets/clock.png" alt="8-Bit computer clock module close-up" class="carousel-slide" />
+            </div>
+            <button class="carousel-btn carousel-prev" aria-label="Previous image">&#10094;</button>
+            <button class="carousel-btn carousel-next" aria-label="Next image">&#10095;</button>
+            <div class="carousel-dots">
+              <span class="carousel-dot active" data-index="0"></span>
+              <span class="carousel-dot" data-index="1"></span>
+            </div>
           </div>
           <div class="project-preview">
             <span class="project-badge">Discovery Project</span>
@@ -521,7 +530,7 @@
                 frequency. A potentiometer allows me to adjust the speed in real time — from a slow,
                 visible pulse to a faster rate — making it easy to observe and debug the computer's
                 operation at different speeds.</li>
-              <li><strong>Manual (single-step) mode:</strong> I can advance the clock one tick at a time
+              <li><strong>Monostable (single-step) mode:</strong> I can advance the clock one tick at a time
                 using a push button. This is essential for debugging, as it lets me step through each
                 instruction cycle and verify that every part of the computer behaves correctly.</li>
             </ul>
@@ -626,6 +635,11 @@
 
   <!-- ===== PROJECT DETAIL MODAL OVERLAY ===== -->
   <div id="modal-overlay" class="modal-overlay"></div>
+  <!-- ===== IMAGE LIGHTBOX ===== -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <img id="lightbox-img" src="" alt="Enlarged view" />
+  </div>
 
   <script src="script.js"></script>
 </body>
